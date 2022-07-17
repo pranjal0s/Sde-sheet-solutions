@@ -6,11 +6,13 @@ public:
         if(nn<0) nn = -1 * nn;
         while(nn){
             if(nn % 2){
+            // for odd power multiply by num 
                 ans = ans * x;
                 nn = nn - 1;
             }
             
             else{
+            // divide the power to half 
                 x = x * x;
                 nn = nn / 2;
             }
