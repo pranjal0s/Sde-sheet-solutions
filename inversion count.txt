@@ -44,7 +44,7 @@ long long merge(long long arr[], int left, int mid, int right){
     return invCount;
 }
 
-// Function to split two subarrays and then merge them and count inversions.
+// Function to split two subarrays and then merge them and count inversions,
 
 long long mergeSort(long long arr[], int left, int right){
     long long invCount = 0;
